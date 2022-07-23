@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main Page.Master.cs" Inherits="Project.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>PMAS Home page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 96px;
+        }
+        .auto-style2{
+            height:150px;
+        }
+        .auto-style3{
+
+            height: 162px;
+            width: 188px;
+        }
+        .auto-style4 {
+            height: 208px;
+            width: 215px;
+            
+        }
+        .auto-style5{
+            border-block:medium;
+            width:100%;
+        }
+        .auto-style6 {
+            height: 213px;
+            width: 218px;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+        .auto-style8 {
+            height: 96px;
+            width: 14%;
+        }
+        .auto-style9 {
+            width: 518px;
+            height: 73px;
+       
+    </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+       <div>
+           <table class="auto-style5" border="2"; >
+         <tr>
+            <td class="auto-style2">
+                <img src="arid.png" class="auto-style3" />
+            </td>
+                
+            
+            <td align="center" class="auto-style2" width="80%" bgcolor="48702A">
+                <h2 >Peer Mehar Ali shah Arid Agriculture University, Rawalpindi</h2><br />
+                <hr />
+                <h2>University Institute of Information Technology</h2>
+            </td>
+                  
+               
+            
+            <td  class="auto-style2">
+                <img src="VC.jpg" class="auto-style3"/>
+            </td>
+            </tr>
+               
+          
+                 
+        <tr>
+        <td colspan="3">
+              <marquee > Admissions are open From <strong> October 10, 2021</strong> </marquee> 
+            </td>
+        </tr>
+        </table >
+                </div >
+    <div>
+          
+        <table border="2" bgcolor="dcdcba"  height="100%" >
+            <tr>
+                <td class="auto-style8"  >
+                    <a href="Registeration Form.aspx">Register Here</a>
+                    <hr />
+                    <a href="Search Form.aspx">Search Here </a>
+                    <hr />
+                    <a href="Course Form.aspx">Available Courses</a>
+                </td>
+                
+                </tr>
+            <tr>
+                <td colspan="3" class="auto-style1">
+                    
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                      
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                   Arslan Ghani@2021-All Rights Reserve
+                </td>
+
+            </tr>
+            </table>
+       </div>>
+    </form>
+</body>
+</html>
